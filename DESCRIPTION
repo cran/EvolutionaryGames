@@ -1,0 +1,28 @@
+Package: EvolutionaryGames
+Type: Package
+Title: Important Concepts of Evolutionary Game Theory
+Version: 0.1.0
+Authors@R: c(person("Daniel", "Gebele", role = c("aut", "cph"),
+                     email = "dngebele@gmail.com"),
+            person("Jochen", "Staudacher", role = c("aut","cre", "cph"),
+                     email = "jochen.staudacher@hs-kempten.de"))
+Maintainer: Jochen Staudacher <jochen.staudacher@hs-kempten.de>
+Description: A comprehensive set of tools to illustrate the
+    core concepts of evolutionary game theory, such as
+    evolutionary stability or various evolutionary dynamics, 
+    for teaching and academic research.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: deSolve (>= 1.14), geometry (>= 0.3-6), ggplot2 (>= 2.2.1),
+        grDevices (>= 3.2.2), interp (>= 1.0-29), MASS (>= 7.3-43),
+        reshape2 (>= 1.4.2), rgl (>= 0.95.1201)
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: no
+RoxygenNote: 6.0.1
+Packaged: 2017-11-26 22:49:02 UTC; jhstaudacher
+Author: Daniel Gebele [aut, cph],
+  Jochen Staudacher [aut, cre, cph]
+Repository: CRAN
+Date/Publication: 2017-11-27 12:36:41 UTC
