@@ -4,8 +4,13 @@
 \alias{phaseDiagram2S}
 \title{Phase Diagram for two-player games with two strategies}
 \usage{
-phaseDiagram2S(A, dynamic, params = NULL, vectorField = TRUE,
-  strategies = c("1", "2"))
+phaseDiagram2S(
+  A,
+  dynamic,
+  params = NULL,
+  vectorField = TRUE,
+  strategies = c("1", "2")
+)
 }
 \arguments{
 \item{A}{Numeric matrix of size 2x2 representing the number of strategies of

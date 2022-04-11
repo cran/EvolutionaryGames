@@ -4,8 +4,15 @@
 \alias{phaseDiagram3S}
 \title{Phase Diagram for two-player games with three strategies}
 \usage{
-phaseDiagram3S(A, dynamic, params = NULL, trajectories = NULL,
-  contour = FALSE, vectorField = FALSE, strategies = c("1", "2", "3"))
+phaseDiagram3S(
+  A,
+  dynamic,
+  params = NULL,
+  trajectories = NULL,
+  contour = FALSE,
+  vectorField = FALSE,
+  strategies = c("1", "2", "3")
+)
 }
 \arguments{
 \item{A}{Numeric matrix of size 3x3 representing the number of strategies of

@@ -61,19 +61,24 @@ phaseDiagram4S <- function(A, dynamic, params = NULL, trajectory = NULL,
   
   # create rotatable diagram
   if(!noRGL) {
-    x <- c(0, 0, 1, 1)
-    y <- c(0, 1, 1, 0)
-    z <- c(0, 1, 0, 1)
-    
-    for(i in 1:length(x)) {
-      n <- setdiff(1:length(x), i)
-      rgl::triangles3d(x[n], y[n], z[n], alpha = 0.5, col = "white")
-      rgl::rgl.texts(x[i], y[i], z[i], text = strategies[i], col = "black")
-    }   
-    
-    refSimp2 <- cbind(x, y, z)
-    odeData <- geometry::bary2cart(refSimp2, odeData)
-    rgl::rgl.points(odeData[,1], odeData[,2], odeData[,3], col = "black")
+	if (requireNamespace("rgl", quietly = TRUE)) {
+		x <- c(0, 0, 1, 1)
+		y <- c(0, 1, 1, 0)
+		z <- c(0, 1, 0, 1)
+		
+		for(i in 1:length(x)) {
+		  n <- setdiff(1:length(x), i)
+		  rgl::triangles3d(x[n], y[n], z[n], alpha = 0.5, col = "white")
+		  rgl::rgl.texts(x[i], y[i], z[i], text = strategies[i], col = "black")
+		}   
+		
+		refSimp2 <- cbind(x, y, z)
+		odeData <- geometry::bary2cart(refSimp2, odeData)
+		rgl::rgl.points(odeData[,1], odeData[,2], odeData[,3], col = "black")
+	}
+	else{
+		print("Please install the package 'rgl' or do not overwrite default value 'noRGL = TRUE' ")
+	}
   }
   else {
     refSimp <- cbind(c(0.5, 0.5, 0, 1), c(sqrt(3)/2, sqrt(3)/6, 0, 0))

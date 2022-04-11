@@ -4,8 +4,14 @@
 \alias{phaseDiagram4S}
 \title{Phase Diagram for two-player games with four strategies}
 \usage{
-phaseDiagram4S(A, dynamic, params = NULL, trajectory = NULL,
-  strategies = c("1", "2", "3", "4"), noRGL = TRUE)
+phaseDiagram4S(
+  A,
+  dynamic,
+  params = NULL,
+  trajectory = NULL,
+  strategies = c("1", "2", "3", "4"),
+  noRGL = TRUE
+)
 }
 \arguments{
 \item{A}{Numeric matrix of size 4x4 representing the number of strategies of
