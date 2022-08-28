@@ -16,13 +16,13 @@ vignette: >
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 abstract: "This document gives a few use cases for the EvolutionaryGames 
-package. EvolutionaryGames provides basic concepts of evolutionary game 
-theory, like e.g. finding evolutionary stable strategies and computing 
-and drawing evolutionarily stable sets as well as phase diagrams for 
-various evolutionary dynamics for single-population games with two, 
-three and four different phenotypes.\n\n**Keywords**: 
-Evolutionary game theory, evolutionary stable strategies, 
-evolutionarily stable sets, evolutionary game dynamics."
+  package. EvolutionaryGames provides basic concepts of evolutionary game 
+  theory, like e.g. finding evolutionary stable strategies and computing 
+  and drawing evolutionarily stable sets as well as phase diagrams for 
+  various evolutionary dynamics for single-population games with two, 
+  three and four different phenotypes.\n\n**Keywords**: 
+  Evolutionary game theory, evolutionary stable strategies, 
+  evolutionarily stable sets, evolutionary game dynamics."
 bibliography: references.bib
 biblio-style: apsr
 ---
@@ -230,7 +230,7 @@ shown if the user sets `vectorField = TRUE`.
 specifying the names of all strategies. By default 
 `strategies = c("1","2","3")`. 
 
-In the following we see three plots of the game Rock-Scissors-Paper 
+In the following we show three plots of the game Rock-Scissors-Paper 
 under the Replicator dynamics with the same initial state:
 
 ```{r, fig.show='hold'}
@@ -239,7 +239,20 @@ A <- matrix(c(1, 2, 0, 0, 1, 2, 2, 0, 1), 3, byrow=T)
 state <- matrix(c(0.7, 0.2, 0.1), 1, 3, byrow=TRUE)
 RSP <- c("Rock", "Scissors", "Paper")
 phaseDiagram3S(A, Replicator, NULL, state, FALSE, FALSE, strategies = RSP)
+```
+
+```{r, fig.show='hold'}
+library(EvolutionaryGames)
+A <- matrix(c(1, 2, 0, 0, 1, 2, 2, 0, 1), 3, byrow=T)
+state <- matrix(c(0.7, 0.2, 0.1), 1, 3, byrow=TRUE)
+RSP <- c("Rock", "Scissors", "Paper")
 phaseDiagram3S(A, Replicator, NULL, state, TRUE, FALSE, strategies = RSP)
+```
+
+```{r, fig.show='hold'}
+library(EvolutionaryGames)
+A <- matrix(c(1, 2, 0, 0, 1, 2, 2, 0, 1), 3, byrow=T)
+state <- matrix(c(0.7, 0.2, 0.1), 1, 3, byrow=TRUE)
 phaseDiagram3S(A, Replicator, NULL, state, TRUE, TRUE, strategies = RSP)
 ```
 

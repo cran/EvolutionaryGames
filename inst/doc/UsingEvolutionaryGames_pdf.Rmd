@@ -1,18 +1,13 @@
 ---
-title: "Using EvolutionaryGames"
-author:
-- name: Daniel Gebele
-  affiliation: 
-  - &id Hochschule Kempten
-  email: dngebele@gmail.com
-- name: Jochen Staudacher
-  affiliation: 
-  - &id Hochschule Kempten
-  email: jochen.staudacher@hs-kempten.de
+author: | 
+  | Jochen Staudacher, Daniel Gebele
+  | (Hochschule Kempten)
+  | Contact: jochen.staudacher@hs-kempten.de
+title: "Using EvolutionaryGames (pdf Version)"
 date: "`r Sys.Date()`"
-output: rmarkdown::html_vignette
+output: rmarkdown::pdf_document
 vignette: >
-  %\VignetteIndexEntry{Using EvolutionaryGames}
+  %\VignetteIndexEntry{Using EvolutionaryGames (pdf Version)}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 abstract: "This document gives a few use cases for the EvolutionaryGames 

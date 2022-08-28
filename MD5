@@ -1,4 +1,4 @@
-48e6cb248843bac6edd50982f1fd377f *DESCRIPTION
+549467b8323cdb487c37592864df254e *DESCRIPTION
 56aef2b6fc1260c9b464eaac9bf12019 *NAMESPACE
 59768624d522fc62cdd6bf770ae08230 *R/BNN.R
 804a05abae84c4e31d408cebabedd5fd *R/BR.R
@@ -13,10 +13,13 @@ d219260f24788c87a4563d93dea3ecbf *R/phaseDiagram2S.R
 62dbbab78febf7756bae68948f2f9f3f *R/phaseDiagram3S.R
 7b251ba375f3003828699b4ed4e64761 *R/phaseDiagram4S.R
 64942c69a2621688d72122dc90740fac *R/triangle.R
-749e10738fb015d9a1402491d07de59d *build/vignette.rds
-2a06284d727ef15a631e8a02c309eb5c *inst/doc/UsingEvolutionaryGames.R
-183afd4e5fd2c20453f11460bd62c9f2 *inst/doc/UsingEvolutionaryGames.Rmd
-36a13135c01ed5b976670431b73ad568 *inst/doc/UsingEvolutionaryGames.html
+fe63b8668f50dc27e632eba0d620120b *build/vignette.rds
+2f7fa259fad124cf9ebe11959bfa3aca *inst/doc/UsingEvolutionaryGames.R
+24cc8b0638456885c1e209097d259c39 *inst/doc/UsingEvolutionaryGames.Rmd
+616fa72e7911b9816a3248cf99858281 *inst/doc/UsingEvolutionaryGames.html
+2f7fa259fad124cf9ebe11959bfa3aca *inst/doc/UsingEvolutionaryGames_pdf.R
+1ebbc908db5fda49316d5e61fc2ba920 *inst/doc/UsingEvolutionaryGames_pdf.Rmd
+ca26f2ae36e94a0243411e1997e95af4 *inst/doc/UsingEvolutionaryGames_pdf.pdf
 1add05f278e26c1cf9f2704c20739864 *man/BNN.Rd
 265884b00058d9183c8f736c4b8eb255 *man/BR.Rd
 e4edc55bd9c931a3ad6892fcda672761 *man/ESS.Rd
@@ -30,5 +33,6 @@ a5dabb4f37568f0eaeb821c404993ccd *man/Smith.Rd
 76e7db1b3c8ab3c027c168c0832163c4 *man/phaseDiagram3S.Rd
 a1a304f209a313b7556bd5542b8039b6 *man/phaseDiagram4S.Rd
 4bc54bfbc559f9cf2f1dc428e7d7a3da *man/triangle.Rd
-183afd4e5fd2c20453f11460bd62c9f2 *vignettes/UsingEvolutionaryGames.Rmd
+24cc8b0638456885c1e209097d259c39 *vignettes/UsingEvolutionaryGames.Rmd
+1ebbc908db5fda49316d5e61fc2ba920 *vignettes/UsingEvolutionaryGames_pdf.Rmd
 f2ae29114c470ad96bc33c3c9f865e63 *vignettes/references.bib

@@ -1,7 +1,7 @@
 Package: EvolutionaryGames
 Type: Package
 Title: Important Concepts of Evolutionary Game Theory
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: c(person("Daniel", "Gebele", role = c("aut", "cph"),
                      email = "dngebele@gmail.com"),
             person("Jochen", "Staudacher", role = c("aut","cre", "cph"),
@@ -22,8 +22,8 @@ Suggests: knitr, rmarkdown, rgl
 RoxygenNote: 7.1.2
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2022-04-11 04:02:46 UTC; jhstaudacher
+Packaged: 2022-08-28 23:21:59 UTC; jhstaudacher
 Author: Daniel Gebele [aut, cph],
   Jochen Staudacher [aut, cre, cph]
 Repository: CRAN
-Date/Publication: 2022-04-11 09:12:43 UTC
+Date/Publication: 2022-08-29 00:10:02 UTC
